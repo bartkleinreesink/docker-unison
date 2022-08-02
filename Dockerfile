@@ -1,7 +1,7 @@
 FROM alpine:edge
 MAINTAINER Onni Hakala <onni.hakala@geniem.com>
 
-ARG UNISON_VERSION=2.51.2
+ARG UNISON_VERSION=2.52.1
 
 # Install in one run so that build tools won't remain in any docker layers
 # Install build tools
